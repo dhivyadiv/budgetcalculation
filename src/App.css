@@ -1,0 +1,62 @@
+:root {
+    --box-shadow: 0px 1p 4px 1px rgba(199,199,199,1);
+    --income: green;
+    --expense: red;
+}
+
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: -1px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+.balance-val {
+    font-size: 30px;
+    color: orange;
+}
+
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+   
+}
+
+
+.col {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+
+.col h3 {
+    margin: 0;
+    padding: 0;
+    color:red;
+}
+
+
+.row-expense {
+    box-shadow: var(--box-shadow);
+    margin-top: 20px;
+    width: 240px;
+    
+    
+}
+
+
+.col-income, .col-expense {
+    padding: 20px;
+    color:green;
+   
+    
+}
+
+
